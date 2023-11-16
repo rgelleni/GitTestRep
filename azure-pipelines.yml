@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: VMWareWindowsAgents
+  vmImage: VM-WindowsServer2019
 
 steps:
 - script: echo Hello, world!
